@@ -1,0 +1,9 @@
+streamlit
+streamlit-lottie
+streamlit_tile
+streamlit_option_menu
+streamlit-extras
+pandas
+numpy
+matplotlib
+pyyaml

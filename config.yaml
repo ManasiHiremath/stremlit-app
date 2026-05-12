@@ -1,0 +1,27 @@
+app_config:
+  app_title: "Planning Tool"
+
+
+navigation:
+  pages:
+    - id: "Overview"
+      label: "Overview"
+      icon: "insights"        # Clean, data-driven icon
+    - id: "predictions"
+      label: "Demand Forecast"
+      icon: "online_prediction" # Specific to ML/AI forecasting
+    - id: "accuracy"
+      label: "Model Precision"
+      icon: "precision_manufacturing" # Great for 'Actual vs Forecast'
+  menu_title: "Forecast Analysis" # New menu title with a more analytical tone
+
+paths:
+  default_path: "data/default_forecast/weekly_forecast_data.csv"
+  upload_dir: "data/upload_forecast"
+
+datadetails:
+  forecast_horizon: "13"
+  forecastdate: "Date"
+  forecastvalue: "Forecast_Value"
+  actualvalue: "Actual_Value"
+  objective: "sales"
